@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet("/api/user")
+@WebServlet("/hello-servlet")
 public class HelloServlet extends HttpServlet {
    @Override
 
